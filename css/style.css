@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: #f7b600;
+    padding: 15px;
+}
+
+.cabecalho__logo{
+    padding: 10px;   
+}
+
+h1{
+    color:  #4e4e4e;
+    font-size: 2.5rem;
+}
+
+.branco{
+    color: white;
+}
+
+.cabecalho__menu{
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background-color: white;
+    color:  #f7b600;
+}
