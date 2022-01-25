@@ -6,6 +6,7 @@
 body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
 }
 
 .cabecalho{
@@ -18,7 +19,7 @@ body{
     padding: 10px;   
 }
 
-h1{
+.tec{
     color:  #4e4e4e;
     font-size: 2.5rem;
 }
@@ -28,20 +29,82 @@ h1{
 }
 
 .cabecalho__menu{
-    padding: 10px;
-    
+    padding: 10px;   
+}
+.botao1{
+    color: orange;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
-a:link, a:visited {
+ .cabecalho__menu a:link,  .cabecalho__menua:visited {
     color: white;
     padding: 8px 12px;
 }
 
-a:hover {
+a:hover  {
     background-color: white;
     color:  #f7b600;
+}
+h1{
+    color:  #f7b600; 
+}
+
+.principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.principal__menu__lateral{
+    background: rgb(255, 255, 255);
+    width: 240px;
+    float: right; 
+    margin-top: 20px;
+    padding: 10px;
+}
+.menu__lateral_recentes{
+    border-bottom: 1px solid grey;
+    padding: 3px;
+}
+
+.principal__posts{
+    background: rgb(255, 255, 255);
+    width: 440px;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    color: #565656;
+    background-color:  #ccc;
+    padding: 5px;
+
+}
+
+.principal__post__data{
+   font-size: 0.8em;
+   
+
+}
+
+.imagem1{
+    width: 400px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+.Rodape{
+    clear: both;
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
 }
